@@ -1,0 +1,25 @@
+{
+  "name": "webpack-eslint-babel",
+  "version": "1.0.0",
+  "description": "aprendiendo.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel entrada.js --out-file salida.js --presets=@babel/preset-env",
+    "webpack": "webpack",
+    "dev": "webpack serve"
+  },
+  "author": "Maria Bohorquez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.19.0",
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-watch-files-plugin": "^1.1.0"
+  }
+}
